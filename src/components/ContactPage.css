@@ -1,0 +1,30 @@
+.contact-page {
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    height: 60vh;
+    position: relative;
+}
+
+.heading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-page h1 {
+    font-size: 2.4rem;
+}
+
+.contact-page p {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    .contact-page h1 {
+        font-size: 2rem;
+    } 
+}
